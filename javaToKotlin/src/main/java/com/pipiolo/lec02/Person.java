@@ -1,5 +1,8 @@
 package com.pipiolo.lec02;
 
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
 public class Person {
 
     private final String name;
@@ -8,6 +11,7 @@ public class Person {
         this.name = name;
     }
 
+    @NotNull
     public String getName() {
         return name;
     }
